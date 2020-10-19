@@ -12,7 +12,7 @@ Imprima a saída conforme exemplo fornecido.
 '''
 
 # -*- coding: utf-8 -*-
-# -*- coding: utf-8 -*-
+
 
 dias = int(input())
 
