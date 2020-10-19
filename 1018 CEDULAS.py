@@ -10,8 +10,9 @@ Imprima o valor lido e, em seguida, a quantidade mínima de notas de cada tipo n
 Não esqueça de imprimir o fim de linha após cada linha, caso contrário seu programa apresentará a mensagem: “Presentation Error”.
 """
 
-valor = int(input())
+# -*- coding: utf-8 -*-
 
+valor = int(input())
 
 nota_100 = valor // 100
 valor = valor - (nota_100 * 100)
@@ -33,11 +34,10 @@ valor = valor - (nota_2 * 2)
 
 nota_1 = valor
 
-
-print(nota_100)
-print(nota_50)
-print(nota_20)
-print(nota_10)
-print(nota_5)
-print(nota_2)
-print(nota_1)
+print(f'{nota_100} nota(s) de R$ 100,00\n'
+      f'{nota_50} nota(s) de R$ 50,00\n'
+      f'{nota_20} nota(s) de R$ 20,00\n'
+      f'{nota_10} nota(s) de R$ 10,00\n'
+      f'{nota_5} nota(s) de R$ 5,00\n'
+      f'{nota_2} nota(s) de R$ 2,00\n'
+      f'{nota_1} nota(s) de R$ 1,00')
