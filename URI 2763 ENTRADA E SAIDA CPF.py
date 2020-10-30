@@ -1,3 +1,4 @@
+
 cpf = input()
 a = cpf[0:3]
 b = cpf[4:7]
